@@ -365,8 +365,8 @@ Through **Golden Hour Help** and the **Safety Centre**:
 | Member | GitHub Handle | Role | Core Modules Owned |
 | :--- | :--- | :--- | :--- |
 | **Sarika M** *(Lead)* | [@Sarika1628](https://github.com/Sarika1628) | Fullstack Architecture & Security Lead | Core FastAPI Backend, SQLite Models, Payment Simulator, Cloud Deployment |
-| **Dhanyashree** | [@dhanyashree0409-sys](https://github.com/dhanyashree0409-sys) | AI & Fraud Intelligence Engineer | Scikit-Learn ML Scam Detector, 4-Tier Conditional Risk UI, Screenshot Verifier |
-| **Team Member 3** | [@collaborator-3](https://github.com) *(Editable)* | Frontend & Senior Accessibility Lead | Two-Way AI Voice Assistant (4 Languages), Privacy Camera, Senior Accessibility |
+| **Dhanyashree** | [@dhanyashree0409](https://github.com/dhanyashree0409) | AI & Fraud Intelligence Engineer | Scikit-Learn ML Scam Detector, 4-Tier Conditional Risk UI, Screenshot Verifier |
+| **Syeda Zoya** | [@zoyasyeda2006](https://github.com/zoyasyeda2006) | Frontend & Senior Accessibility Lead | Two-Way AI Voice Assistant (4 Languages), Privacy Camera, Senior Accessibility |
 
 > 📖 **Detailed Matrix**: See [TEAM_CONTRIBUTIONS.md](./TEAM_CONTRIBUTIONS.md) for the full module breakdown, responsibility matrix, and code ownership.
 

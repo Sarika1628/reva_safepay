@@ -11,8 +11,8 @@
 | Member | GitHub Username | Role & Focus Area | Key Modules Owned |
 | :--- | :--- | :--- | :--- |
 | **Sarika M** *(Team Lead)* | [@Sarika1628](https://github.com/Sarika1628) | Fullstack Architecture & Security Lead | Backend Core, Database, Payment Simulator, Cloud Deployment |
-| **Dhanyashree** | [@dhanyashree0409-sys](https://github.com/dhanyashree0409-sys) | AI & Fraud Intelligence Engineer | ML Scam Detector, 4-Tier Risk Engine, Screenshot Checker |
-| **Team Member 3** | [@collaborator-3](https://github.com) *(Editable)* | Frontend & Senior Accessibility Lead | Two-Way AI Voice Assistant, Privacy Camera, UI Design System |
+| **Dhanyashree** | [@dhanyashree0409](https://github.com/dhanyashree0409) | AI & Fraud Intelligence Engineer | ML Scam Detector, 4-Tier Risk Engine, Screenshot Checker |
+| **Syeda Zoya** | [@zoyasyeda2006](https://github.com/zoyasyeda2006) | Frontend & Senior Accessibility Lead | Two-Way AI Voice Assistant, Privacy Camera, UI Design System |
 
 ---
 
@@ -36,7 +36,7 @@
 
 ---
 
-### 👤 Member 2: Dhanyashree ([@dhanyashree0409-sys](https://github.com/dhanyashree0409-sys))
+### 👤 Member 2: Dhanyashree ([@dhanyashree0409](https://github.com/dhanyashree0409))
 **Role**: AI & Fraud Intelligence Specialist
 - **Machine Learning Scam Detection Pipeline**:
   - Built and trained the scikit-learn `TfidfVectorizer` + `LogisticRegression` pipeline ([`backend/app/ml/train.py`](./backend/app/ml/train.py)).
@@ -54,7 +54,7 @@
 
 ---
 
-### 👤 Member 3: Team Member 3 ([@collaborator-3](https://github.com))
+### 👤 Member 3: Syeda Zoya ([@zoyasyeda2006](https://github.com/zoyasyeda2006))
 **Role**: Frontend & Senior Accessibility Lead
 - **FEATURE 2: Two-Way AI Voice Assistant ("Speak to SafePay")**:
   - Integrated browser Web Speech API for voice recognition and text-to-speech ([`frontend/src/components/SafePayVoiceAssistant.jsx`](./frontend/src/components/SafePayVoiceAssistant.jsx)).
