@@ -1,0 +1,33 @@
+{
+  "model_name": "SafePay-ML-ScamDetector",
+  "algorithm": "TfidfVectorizer + LogisticRegression",
+  "library": "scikit-learn",
+  "version": "1.0.0",
+  "trained_at": "2026-10-14T21:30:41.515715+00:00",
+  "dataset_type": "Synthetic Indian Payment & Scam Communications",
+  "dataset_disclaimer": "Curated synthetic dataset for local demonstration and safety-rule verification. Does not represent real-world national fraud statistics.",
+  "sample_counts": {
+    "total": 80,
+    "train": 60,
+    "test": 20,
+    "legitimate": 40,
+    "scam": 40
+  },
+  "evaluation_metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        10
+      ]
+    ]
+  },
+  "model_file": "scam_model.joblib"
+}

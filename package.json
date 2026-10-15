@@ -1,0 +1,29 @@
+{
+  "name": "easypay-safepay",
+  "version": "1.0.0",
+  "description": "Accessible Digital Payment Assistance and Scam-Prevention Web Application",
+  "private": true,
+  "scripts": {
+    "start": "python run_production.py",
+    "build": "npm --prefix frontend run build",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "backend:test": "backend\\venv\\Scripts\\python.exe -m pytest -v backend/tests",
+    "backend:init-db": "backend\\venv\\Scripts\\python.exe -m backend.app.init_db",
+    "backend:dev": "backend\\venv\\Scripts\\python.exe -m uvicorn backend.app.main:app --reload --port 8000",
+    "docker:build": "docker build -t easysafepay .",
+    "docker:run": "docker run -p 8000:8000 easysafepay"
+  },
+  "keywords": [
+    "accessibility",
+    "scam-prevention",
+    "seniors",
+    "deaf-accessible",
+    "non-speaking",
+    "fastapi",
+    "react",
+    "vite"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT"
+}

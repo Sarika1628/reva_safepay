@@ -1,0 +1,324 @@
+/* ==========================================================================
+   EasyPay & SafePay - Accessible Modern Design System Tokens & Global Base
+   ========================================================================== */
+
+:root {
+  /* Elevated Cyber-Care Fintech Palette */
+  --bg-primary: #f8faff;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --bg-card: rgba(255, 255, 255, 0.94);
+  --bg-card-hover: rgba(255, 255, 255, 0.98);
+  --border-color: #e2e8f0;
+  --border-subtle: rgba(226, 232, 240, 0.8);
+  --border-focus: #4f46e5;
+
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+
+  /* EasySafePay Electric Rose / Fuchsia Brand (Uizard Prototype Theme) */
+  --color-brand: #f43f5e;
+  --color-brand-hover: #e11d48;
+  --color-brand-light: #fff1f2;
+  --color-brand-glow: rgba(244, 63, 94, 0.35);
+  --brand-gradient: linear-gradient(135deg, #f43f5e 0%, #ec4899 50%, #8b5cf6 100%);
+  --brand-gradient-hover: linear-gradient(135deg, #e11d48 0%, #db2777 50%, #7c3aed 100%);
+
+  /* Safe / Verified States */
+  --color-safe: #059669;
+  --color-safe-bg: #ecfdf5;
+  --color-safe-border: #6ee7b7;
+  --color-safe-glow: rgba(5, 150, 105, 0.2);
+
+  /* Caution States */
+  --color-caution: #d97706;
+  --color-caution-bg: #fffbeb;
+  --color-caution-border: #fcd34d;
+  --color-caution-glow: rgba(217, 119, 6, 0.2);
+
+  /* Danger / Emergency States */
+  --color-danger: #e11d48;
+  --color-danger-bg: #fff1f2;
+  --color-danger-border: #fda4af;
+  --color-danger-glow: rgba(225, 29, 72, 0.25);
+
+  /* Layered Ambient Shadows */
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 6px 16px -2px rgba(15, 23, 42, 0.07), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 14px 28px -6px rgba(15, 23, 42, 0.1), 0 6px 12px -3px rgba(15, 23, 42, 0.05);
+  --shadow-glow: 0 0 24px var(--color-brand-glow);
+  --shadow-card: 0 10px 30px -8px rgba(30, 41, 59, 0.06), 0 2px 8px -2px rgba(30, 41, 59, 0.04);
+
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Font Scale: Standard (16px base) */
+  --font-base: 16px;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.35rem;
+  --font-2xl: 1.75rem;
+  --font-3xl: 2.25rem;
+  --line-height-base: 1.55;
+  --btn-padding: 0.85rem 1.5rem;
+}
+
+/* Font Size Scaling Presets for Seniors & Low Vision */
+html[data-font-size="large"] {
+  --font-base: 19px;
+  --font-sm: 0.95rem;
+  --font-md: 1.1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.55rem;
+  --font-2xl: 2rem;
+  --font-3xl: 2.6rem;
+  --line-height-base: 1.6;
+  --btn-padding: 1rem 1.75rem;
+}
+
+html[data-font-size="xlarge"] {
+  --font-base: 22px;
+  --font-sm: 1.05rem;
+  --font-md: 1.22rem;
+  --font-lg: 1.45rem;
+  --font-xl: 1.85rem;
+  --font-2xl: 2.4rem;
+  --font-3xl: 3.1rem;
+  --line-height-base: 1.65;
+  --btn-padding: 1.2rem 2.1rem;
+}
+
+/* High Contrast Mode (WCAG AAA Senior & Low-Vision Preset) */
+html[data-contrast-mode="high-contrast"] {
+  --bg-primary: #000000;
+  --bg-secondary: #0a0a0a;
+  --bg-tertiary: #171717;
+  --bg-card: #000000;
+  --bg-card-hover: #121212;
+  --border-color: #facc15; /* Crisp high-vis yellow */
+  --border-subtle: #facc15;
+  --border-focus: #38bdf8;
+
+  --text-primary: #ffffff;
+  --text-secondary: #fef08a;
+  --text-muted: #fde047;
+
+  --color-brand: #38bdf8;
+  --color-brand-hover: #7dd3fc;
+  --color-brand-light: #082f49;
+  --color-brand-glow: rgba(56, 189, 248, 0.4);
+  --brand-gradient: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+  --brand-gradient-hover: linear-gradient(135deg, #0369a1 0%, #7dd3fc 100%);
+
+  --color-safe: #4ade80;
+  --color-safe-bg: #052e16;
+  --color-safe-border: #4ade80;
+
+  --color-caution: #fde047;
+  --color-caution-bg: #422006;
+  --color-caution-border: #fde047;
+
+  --color-danger: #f87171;
+  --color-danger-bg: #450a0a;
+  --color-danger-border: #f87171;
+
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: none;
+  --shadow-glow: none;
+  --shadow-card: none;
+}
+
+/* EasySafePay Dark Mode - Ultra-Sleek Obsidian & Electric Rose Glow (Uizard Primary Theme) */
+html[data-contrast-mode="dark"] {
+  --bg-primary: #0a0e17;
+  --bg-secondary: #111726;
+  --bg-tertiary: #182033;
+  --bg-card: rgba(17, 23, 38, 0.94);
+  --bg-card-hover: rgba(24, 32, 51, 0.98);
+  --border-color: #232f48;
+  --border-subtle: rgba(35, 47, 72, 0.7);
+  --border-focus: #f43f5e;
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  --color-brand: #f43f5e;
+  --color-brand-hover: #fb7185;
+  --color-brand-light: rgba(244, 63, 94, 0.16);
+  --color-brand-glow: rgba(244, 63, 94, 0.45);
+  --brand-gradient: linear-gradient(135deg, #f43f5e 0%, #ec4899 50%, #a855f7 100%);
+  --brand-gradient-hover: linear-gradient(135deg, #e11d48 0%, #db2777 50%, #9333ea 100%);
+
+  --color-safe: #10b981;
+  --color-safe-bg: #064e3b;
+  --color-safe-border: #059669;
+
+  --color-caution: #f59e0b;
+  --color-caution-bg: #78350f;
+  --color-caution-border: #d97706;
+
+  --color-danger: #f43f5e;
+  --color-danger-bg: #881337;
+  --color-danger-border: #e11d48;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 16px 36px -6px rgba(0, 0, 0, 0.75);
+  --shadow-glow: 0 0 30px rgba(244, 63, 94, 0.4);
+  --shadow-card: 0 12px 32px -8px rgba(0, 0, 0, 0.7), 0 0 1px 1px rgba(255, 255, 255, 0.05);
+}
+
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: var(--font-base);
+  line-height: var(--line-height-base);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  background-image: 
+    radial-gradient(at 12% 10%, rgba(99, 102, 241, 0.08) 0px, transparent 48%),
+    radial-gradient(at 88% 18%, rgba(6, 182, 212, 0.06) 0px, transparent 45%),
+    radial-gradient(at 50% 88%, rgba(16, 185, 129, 0.05) 0px, transparent 48%);
+  background-attachment: fixed;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[data-contrast-mode="dark"] body {
+  background-image: 
+    radial-gradient(at 10% 8%, rgba(99, 102, 241, 0.18) 0px, transparent 50%),
+    radial-gradient(at 90% 15%, rgba(6, 182, 212, 0.14) 0px, transparent 46%),
+    radial-gradient(at 50% 92%, rgba(16, 185, 129, 0.1) 0px, transparent 50%);
+}
+
+html[data-contrast-mode="high-contrast"] body {
+  background-image: none !important;
+}
+
+/* Modern Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Interactive Element Accessibility */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--border-focus);
+  outline-offset: 3px;
+}
+
+/* Smooth Modern Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.45);
+  border-radius: var(--radius-full);
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}
+
+/* Visual Flash Banner for Deaf users */
+.visual-alert-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 1.5rem;
+  font-weight: 800;
+  font-size: var(--font-lg);
+  text-align: center;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  animation: slideDownPulse 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+}
+
+.visual-alert-banner.danger {
+  background: linear-gradient(90deg, #e11d48, #be123c);
+  color: #ffffff;
+  border-bottom: 3px solid #881337;
+}
+
+.visual-alert-banner.success {
+  background: linear-gradient(90deg, #059669, #047857);
+  color: #ffffff;
+  border-bottom: 3px solid #064e3b;
+}
+
+.visual-alert-banner.info {
+  background: linear-gradient(90deg, #4f46e5, #2563eb);
+  color: #ffffff;
+  border-bottom: 3px solid #1e3a8a;
+}
+
+@keyframes slideDownPulse {
+  0% { transform: translateY(-100%); opacity: 0; }
+  70% { transform: translateY(4px); opacity: 1; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+/* High Contrast Border helper */
+html[data-contrast-mode="high-contrast"] button,
+html[data-contrast-mode="high-contrast"] .card,
+html[data-contrast-mode="high-contrast"] input,
+html[data-contrast-mode="high-contrast"] select {
+  border: 2px solid var(--border-color) !important;
+}
+
+/* Silent Mode: Suppress all unnecessary animations and transitions for a calm sensory experience */
+html[data-silent-mode="true"] *,
+html[data-silent-mode="true"] *::before,
+html[data-silent-mode="true"] *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+html[data-silent-mode="true"] .visual-alert-banner {
+  animation: none !important;
+}

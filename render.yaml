@@ -1,0 +1,22 @@
+# ==============================================================================
+# Render Infrastructure as Code Blueprint (render.yaml)
+# Docs: https://render.com/docs/blueprint-spec
+# ==============================================================================
+
+services:
+  - type: web
+    name: easysafepay-app
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: APP_NAME
+        value: "EasyPay & SafePay CyberCare Intelligence"
+      - key: ENVIRONMENT
+        value: "production"
+      - key: SIMULATION_MODE
+        value: "true"
+      - key: CORS_ORIGINS
+        value: "*"

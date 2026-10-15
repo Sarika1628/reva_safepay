@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  easysafepay:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: easysafepay-app
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=EasyPay & SafePay CyberCare Intelligence
+      - ENVIRONMENT=production
+      - SIMULATION_MODE=true
+      - CORS_ORIGINS=*
+      - PORT=8000
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

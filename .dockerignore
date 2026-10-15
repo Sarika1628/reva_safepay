@@ -1,0 +1,29 @@
+# Git & IDE
+.git
+.gitignore
+.gemini
+.vscode
+.idea
+
+# Node
+**/node_modules/
+frontend/dist/
+
+# Python & Virtualenv
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+backend/venv/
+venv/
+ENV/
+env/
+
+# Databases & local state
+*.db-journal
+*.log
+
+# System
+.DS_Store
+Thumbs.db
