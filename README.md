@@ -360,8 +360,21 @@ Through **Golden Hour Help** and the **Safety Centre**:
 
 ---
 
-## 👥 Authors & License
+## 👥 Team Members & Contribution Breakdown
 
-- **Project**: EasyPay & SafePay — CyberCare Intelligence
+| Member | GitHub Handle | Role | Core Modules Owned |
+| :--- | :--- | :--- | :--- |
+| **Sarika M** *(Lead)* | [@Sarika1628](https://github.com/Sarika1628) | Fullstack Architecture & Security Lead | Core FastAPI Backend, SQLite Models, Payment Simulator, Cloud Deployment |
+| **Dhanyashree** | [@dhanyashree0409-sys](https://github.com/dhanyashree0409-sys) | AI & Fraud Intelligence Engineer | Scikit-Learn ML Scam Detector, 4-Tier Conditional Risk UI, Screenshot Verifier |
+| **Team Member 3** | [@collaborator-3](https://github.com) *(Editable)* | Frontend & Senior Accessibility Lead | Two-Way AI Voice Assistant (4 Languages), Privacy Camera, Senior Accessibility |
+
+> 📖 **Detailed Matrix**: See [TEAM_CONTRIBUTIONS.md](./TEAM_CONTRIBUTIONS.md) for the full module breakdown, responsibility matrix, and code ownership.
+
+---
+
+## 📄 License & Attribution
+
+- **Project**: EasyPay & SafePay — CyberCare Intelligence (REVA University Hackathon)
 - **License**: MIT Open Source License
 - **Target Demographics**: Seniors, Deaf / Hard of Hearing Individuals, Non-Speaking Users, Digital Beginners
+
